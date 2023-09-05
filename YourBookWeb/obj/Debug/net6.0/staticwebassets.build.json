@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h/LCCQ7Bfec2wA2Ghot8t3aW8Lv32KB3VWxCX7Is07M=",
+  "Hash": "LfCfelyoeHjr+AoUS0g8Lx7ont8X0KOrBQNrnnjSdoY=",
   "Source": "YourBookWeb",
   "BasePath": "_content/YourBookWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Anyone\\source\\repos\\YourBook\\YourBookWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\YourBookWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Anyone\\source\\repos\\YourBook\\YourBookWeb\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "YourBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Anyone\\source\\repos\\YourBook\\YourBookWeb\\wwwroot\\",
+      "BasePath": "_content/YourBookWeb",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\Anyone\\source\\repos\\YourBook\\YourBookWeb\\wwwroot\\css\\site.css",
