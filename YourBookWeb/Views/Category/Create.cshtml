@@ -11,11 +11,11 @@
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div><div class="mb-3">
-            <lable asp-for="DisplayOrder">DisplayOrder</lable>
+            <lable asp-for="DisplayOrder">Display Order</lable>
             <input asp-for="DisplayOrder" class="form-control" />
             <span asp-validation-for="DisplayOrder" class="text-danger"></span>
         </div><div class="mb-3">
-            <lable asp-for="CreatedDateTime">CreatedDateTime</lable>
+            <lable asp-for="CreatedDateTime">Created DateTime</lable>
             <input asp-for="CreatedDateTime" class="form-control" />
             <span asp-validation-for="CreatedDateTime" class="text-danger"></span>
         </div>
@@ -26,3 +26,10 @@
     </div>
 
 </form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+        
+    }
+}

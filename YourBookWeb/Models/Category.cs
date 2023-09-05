@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace YourBookWeb.Models
 {
@@ -8,8 +9,12 @@ namespace YourBookWeb.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+
+        [DisplayName("Display Order")]
+        [Range(1,10)]
         public int DisplayOrder { get; set; }
 
+        [DisplayName("Created Date Time")]
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
     }
 }
