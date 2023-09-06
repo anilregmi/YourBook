@@ -30,6 +30,7 @@ namespace YourBookWeb.Controllers
             {
                 _db.categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category Created Sucessfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -57,6 +58,8 @@ namespace YourBookWeb.Controllers
             {
                 _db.categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category Updated Sucessfully";
+
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -86,9 +89,9 @@ namespace YourBookWeb.Controllers
             }
                 _db.categories.Remove(obj);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
-            
-            return View(obj);
+            TempData["success"] = "Category Deleted Sucessfully";
+
+            return RedirectToAction("Index");
         }
     }
 }
